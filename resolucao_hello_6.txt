@@ -1,0 +1,24 @@
+ orbite@Laptop-Orbite  ~/python/python-base   main  python hello_6.py     
+>>> lang = "pt_BR.utf8"
+>>> lang
+'pt_BR.utf8'
+>>> len(lang)
+10
+>>> lang[:5]
+'pt_BR'
+>>> lang.split(".")
+['pt_BR', 'utf8']
+>>> lang.split(".")[1]
+'utf8'
+>>> lang[:5]
+'pt_BR'
+>>>
+
+ orbite@Laptop-Orbite  ~/python/python-base   main  export LANG=en_US.utf8                                                                               /0.0s
+ orbite@Laptop-Orbite  ~/python/python-base   main  python hello_6.py     
+Hello, World!                                                                                                                                                /0.0s
+ orbite@Laptop-Orbite  ~/python/python-base   main  export LANG=it_IT.utf8                                                                               /0.0s
+ orbite@Laptop-Orbite  ~/python/python-base   main  python hello_6.py     
+Ciao, Mondo!                                                                                                                                                 /0.0s
+ orbite@Laptop-Orbite  ~/python/python-base   main  python hello_6.py     
+Olá, Mundo! 
