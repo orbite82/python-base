@@ -1,0 +1,2 @@
+ orbite@Laptop-Orbite  ~/python/python-base   main  LANG=fr_FR python hello_7.py
+Bonjour, Monde! 
