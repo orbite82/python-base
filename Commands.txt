@@ -8,4 +8,31 @@ which python = python: aliased to /usr/bin/python3
 source .venv/bin/activate = enter
 which python
 
-teste 2git sdsad
+# install python3-pip
+sudo apt-get install python3-pip
+python -m pip --help
+
+### instalar o ambiente ** VENV **
+
+# upgrade pip
+python3 -m pip install --upgrade pip
+
+# install ipython
+pip install ipython
+
+# rodar ypython
+ipython
+
+In [4]: numero = 65
+
+In [5]: print (numero)
+65
+
+In [6]: bin(numero)
+Out[6]: '0b1000001'
+
+In [7]: id(numero)
+Out[7]: 979510
+
+In [8]: type(numero)
+Out[8]: int
