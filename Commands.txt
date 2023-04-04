@@ -7,3 +7,5 @@ which python = python: aliased to /usr/bin/python3
 # ativar a pasta venv
 source .venv/bin/activate = enter
 which python
+
+teste 2git sdsad
